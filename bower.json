@@ -1,0 +1,22 @@
+{
+  "name": "Consulfis Site",
+  "authors": [
+    "edyonil <edyonil@gmail.com>"
+  ],
+  "description": "Site da empresa Consulfis",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.7.0",
+    "jquery": "^3.1.1"
+  }
+}

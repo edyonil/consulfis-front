@@ -1,0 +1,153 @@
+body {
+    font-family: 'Oxygen', sans-serif !important;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.btn.btn-default {
+    background-color: #262626;
+    color: #FFF;
+}
+.btn:hover {
+    text-decoration: none;
+}
+.btn.btn-outline {
+    border: 2px solid #ccc;
+}
+.btn.btn-outline.c-btn-verde {
+    border-color: #98CE00;
+    color: #98CE00;
+}
+.btn.btn-outline.c-btn-branco {
+    border-color: #FFF;
+    color: #FFF;
+}
+header.c-geral {
+    padding-top: 30px;
+    color: #9B1B1A;
+    background: url("/images/bg_slide.png") repeat-x top left;
+}
+header.c-geral .nav {
+    margin-top: 15px;
+}
+.navbar-default {
+    background-color: transparent;
+    border:0;
+}
+.navbar-default .navbar-nav > li {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #9B1B1A;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.active:hover > a {
+    background-color: #262626;
+    color: #FFF;
+}
+.navbar-default .navbar-nav > li.c-menu-destaque > a {
+    background-color: #9B1B1A;
+    color: #FFF;
+}
+.c-fale-conosco > p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.c-fale-conosco > h3{
+    font-size: 35px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.c-home-servicos {
+    background-color: #262626;
+    color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.c-home-servicos h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+.c-home-servicos h3 {
+    padding-left: 40px;
+    border-left: solid 1px #979797
+}
+.c-servicos-grid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.c-servicos-grid p{
+    text-align: center;
+}
+.c-fique-pordentro {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: url("/images/bg_fique_pordentro.jpg") repeat top left;
+}
+.c-fique-pordentro h1 {
+    color: #FFF;
+    border-bottom: 2px dashed #FFF;
+    padding-bottom: 10px;
+}
+.c-fique-pordentro .btn{
+    margin-top: 0;
+}
+.c-card {
+    position: relative;
+    background-color: #FFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.c-card .c-card-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.c-card .c-card-image img {
+    width: 100%;
+}
+.c-card .c-card-content {
+    padding: 20px;
+}
+.c-card .btn {
+    margin: 0;
+}
+.c-footer-geral {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.c-footer-geral address, .c-footer-geral p {
+    font-size: 12px;
+}
+.c-footer-geral address {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #595959;
+}
+.c-footer-geral p{
+    color: #7D3334;
+}
+.c-skype div.pull-left:last-child {
+    margin-left: 20px;
+}
+.c-skype div.pull-left:last-child h3 {
+    margin: 0;
+    padding: 0;
+}
