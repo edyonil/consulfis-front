@@ -6,6 +6,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 300;
     line-height: 40px;
 }
+h4 {
+    font-size: 33px;
+}
 
 .btn {
     width: 100%;
@@ -22,6 +25,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .btn:hover {
     text-decoration: none;
+    color: inherit;
 }
 .btn.btn-outline {
     border: 2px solid #ccc;
@@ -34,8 +38,30 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border-color: #FFF;
     color: #FFF;
 }
+.c-btn-vermelho {
+    background-color: #9B1C1A;
+    color: #FFF;
+}
+.btn.btn-outline.c-btn-vermelho {
+    border-color: #9B1C1A;
+    color: #9B1C1A;
+    background-color: transparent;
+}
+.btn-group .btn:first-child {
+    margin-top: 0;
+}
+.c-btn-sm {
+    width: 50%;
+}
+.btn i.fa {
+    float: left;
+}
+.btn .c-icon{
+    font-size: 16px;
+}
 header.c-geral {
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 1px;
     color: #9B1B1A;
     background: url("/images/bg_slide.png") repeat-x top left;
 }
@@ -150,4 +176,66 @@ header.c-geral .nav {
 .c-skype div.pull-left:last-child h3 {
     margin: 0;
     padding: 0;
+}
+.c-marca a {
+    margin-top: -20px;
+}
+.c-titulo-page {
+    background-color: #262626;
+    color: #FFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.c-page {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.c-page h4 {
+    text-align: center;
+    background: url("/images/linha.jpg") no-repeat center center;
+    margin: 30px auto;
+}
+.c-page div h3:first-child {
+    margin-top: 0;
+}
+.c-page .row {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.c-page .row:first-child{
+    margin-top: 0;
+}
+.c-servicos-auxiliares img {
+    width: 100%;
+}
+.c-servicos-auxiliares figcaption{
+    text-align: center;
+    margin-top: 10px;
+}
+.c-servicos-auxiliares div[class*=col] {
+    margin-bottom: 30px;
+}
+.c-video-destaque {
+    background: url("/images/bg_slide.png") repeat-x top left;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.c-form .row {
+    margin-top:0;
+    margin-bottom: 0;
+}
+.c-form .c-form-input {
+    border:1px solid #262626;
+    padding: 10px;
+}
+.c-form .c-form-input .c-form-label {
+    text-align: right;
+}
+
+.c-form .c-form-input {
+    margin-bottom: 20px;
+}
+.c-form .c-form-input input {
+    border:0;
+    width: 100%;
 }
