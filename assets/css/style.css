@@ -226,16 +226,32 @@ header.c-geral .nav {
 }
 .c-form .c-form-input {
     border:1px solid #262626;
-    padding: 10px;
 }
 .c-form .c-form-input .c-form-label {
     text-align: right;
 }
-
 .c-form .c-form-input {
     margin-bottom: 20px;
 }
-.c-form .c-form-input input {
+.c-form .c-form-input input, .c-form .c-form-input label, .c-form .c-form-input textarea {
     border:0;
     width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+.c-form .c-form-input input:focus, .c-form .c-form-input textarea:focus {
+    outline: 0;
+    border-left:1px solid #595959;
+}
+.navbar-brand {
+    margin-top: -25px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #000;
+}
+.navbar-default .navbar-toggle {
+    border-color: #000000;
 }

@@ -389,8 +389,6 @@
     "responsive-utilities.less",
     "navs.less",
     "navbar.less",
-    "pagination.less",
-    "pager.less",
     "list-group.less",
     "responsive-embed.less",
     "component-animations.less",
@@ -400,7 +398,8 @@
   "js": [
     "carousel.js",
     "modal.js",
+    "collapse.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=7469500655a1d91ed3db0ade407c3165"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=3a1034e404801d48cc18b0d28233263d"
 }
