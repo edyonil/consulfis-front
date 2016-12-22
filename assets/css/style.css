@@ -255,3 +255,13 @@ header.c-geral .nav {
 .navbar-default .navbar-toggle {
     border-color: #000000;
 }
+.c-titulo-campanha {
+    background: url("/images/campanha.jpg") no-repeat top center;
+    min-height: 320px;
+}
+.c-titulo-campanha h1 {
+    line-height: 50px;
+}
+.c-card-campanha {
+    margin-top: -100px;
+}
